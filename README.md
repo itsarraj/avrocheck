@@ -6,6 +6,12 @@ Confluent Schema Registry runs before it'll let a Kafka producer register
 a new schema version, but as a local CLI you can run in CI before it ever
 reaches a registry.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
